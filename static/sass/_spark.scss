@@ -9,9 +9,13 @@
 //  Color variables (from Stanford palette unless noted)
 //-----------------
 
+//spark colors
+$brown: #31261d;
+$orange: #e07e3c;
+
 //Main Color Variables
-$main-color: #f7691f;
-$dark-color: #ea281f; //Link Color
+$main-color: $orange;
+$dark-color: $brown; //Link Color
 $light-color: #f4e00c; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
 $bg-color: #f7fe81; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
 
@@ -36,10 +40,6 @@ $white: $gray-1;
 
 $black: #2e2e2e;
 $black-80: #585858;
-
-//spark colors
-$brown: #31261d;
-$orange: #e07e3c;
 
 //-----------------
 //  Font Assignment
