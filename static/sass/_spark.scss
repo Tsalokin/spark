@@ -45,11 +45,11 @@ $black-80: #585858;
 //  Font Assignment
 //-----------------
 
-$theme-sans-font: 'Open Sans';
+$theme-sans-font: 'Open Sans Bold';
 $sans-serif: $theme-sans-font, $sans-serif;
 $body-font-family: $sans-serif;
 
-$theme-serif-font: 'Crimson Text';
+$theme-serif-font: 'Open Sans Semibold';
 $serif: $theme-serif-font, $serif;
 
 
@@ -59,7 +59,7 @@ $serif: $theme-serif-font, $serif;
 //  Theme Element Assignments
 //-----------------
 
-$body-bg: $orange;
+$body-bg: $white;
 $container-bg: $gray-1;
 $login-register-bg: $gray-1;
 $content-wrapper-bg: $orange;
@@ -91,7 +91,7 @@ $site-status-color: $bg-color;
 $header-graphic-super-color: $dark-color;
 $header-graphic-sub-color: $lighter-base-font-color;
 
-$header-link-color: $white;
+$header-link-color: $black;
 $header-link-hover: $light-color;
 
 $button-color: $main-color;
@@ -179,7 +179,7 @@ $form-bg-color: $gray-1;
 $modal-bg-color: $gray-1;
 
 //TOP HEADER IMAGE MARGIN
-$header_image_margin: -77px;
+$header_image_margin: -80px;
 
 //FOOTER MARGIN
 $footer_margin: ($baseline/4) 0;
