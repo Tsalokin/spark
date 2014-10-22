@@ -45,7 +45,7 @@ $black-80: #585858;
 //  Font Assignment
 //-----------------
 
-$theme-sans-font: 'Source Sans';
+$theme-sans-font: 'Open Sans';
 $sans-serif: $theme-sans-font, $sans-serif;
 $body-font-family: $sans-serif;
 
@@ -68,8 +68,8 @@ $header-bg: $brown; //transparentize(lighten($secondary, 18.5%), .25);
 $courseware-header-image: none;
 $courseware-header-bg: transparentize(lighten($secondary, 18.5%), .25);
 $footer-bg: $brown;
-$courseware-footer-border: 1px solid $main-bg-60;
-$courseware-footer-shadow: box-shadow(2px 1px 0 rgba(0, 0, 0, .1));
+$courseware-footer-border: 1px solid $orange;
+$courseware-footer-shadow: box-shadow(2px 1px 0 rgba(224, 126, 60, .1));
 $courseware-footer-margin: 50px;
 
 $faded-hr-image-1: linear-gradient($main-bg-60 0%, $main-bg-60);
@@ -79,11 +79,11 @@ $faded-hr-image-4: linear-gradient($main-bg-60 0%, $main-bg-60);
 $faded-hr-image-5: linear-gradient($main-bg-60 0%, $main-bg-60);
 $faded-hr-image-6: linear-gradient($main-bg-60 0%, $main-bg-60);
 
-$base-font-color: $black;
+$base-font-color: $white;
 $lighter-base-font-color: $black-80;
 $very-light-text: $gray-1;
 
-$link-color: $dark-color;
+$link-color: $white;
 $link-color-d1: $dark-color;
 $link-hover: $light-color;
 $site-status-color: $bg-color;
