@@ -61,7 +61,7 @@ $serif: $theme-serif-font, $serif;
 
 $body-bg: $white;
 $container-bg: $gray-1;
-$login-register-bg: $gray-1;
+$login-register-bg: $white;
 $content-wrapper-bg: $orange;
 $header-image: none;
 $header-bg: $brown; //transparentize(lighten($secondary, 18.5%), .25);
@@ -148,8 +148,8 @@ $action-secondary-disabled-fg: $gray;
 
 //
 
-$border-color-1: $main-bg-60;
-$border-color-2: $main-bg-60;
+$border-color-1: $orange;
+$border-color-2: $orange;
 $border-color-3: $main-bg-60;
 $outer-border-color: $main-bg-60;
 
